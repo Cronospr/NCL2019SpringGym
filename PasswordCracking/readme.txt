@@ -81,3 +81,37 @@ cracking3Medium.txt
 
 	Started: Fri Mar 29 13:36:33 2019
 	Stopped: Fri Mar 29 13:36:34 2019
+-------
+craking4Medium2.txt
+	./hashcat -m 1000 -a 0 craking4Medium2.txt rockyou.txt
+	
+	(only 5 of them were cracked, havn't try with ophcrack yet!)
+	
+	f3cf3773cd9142bcd130d84106c0af74:monkey5         
+	46839a2b6fc6cfd4f46d875e3f86b8af:shad0w          
+	13b29964cc2480b4ef454c59562e675c:P@ssword        
+	53c53ba11d51525a952d2af68f996942:fairyprincess   
+	6ec7798aae5b1e551c03f354a979bbb4:racecar1234     
+	Approaching final keyspace - workload adjusted.  
+
+
+	Session..........: hashcat
+	Status...........: Exhausted
+	Hash.Name........: NTLM
+	Hash.Target......: craking4Medium2.txt
+	Time.Started.....: Fri Mar 29 13:48:33 2019 (7 secs)
+	Time.Estimated...: Fri Mar 29 13:48:40 2019 (0 secs)
+	Guess.Base.......: File (rockyou.txt)
+	Guess.Queue......: 1/1 (100.00%)
+	Speed.#2.........:  1962.6 kH/s (7.25ms) @ Accel:128 Loops:1 Thr:8 Vec:1
+	Recovered........: 5/10 (50.00%) Digests, 0/1 (0.00%) Salts
+	Progress.........: 14344384/14344384 (100.00%)
+	Rejected.........: 0/14344384 (0.00%)
+	Restore.Point....: 14344384/14344384 (100.00%)
+	Restore.Sub.#2...: Salt:0 Amplifier:0-1 Iteration:0-1
+	Candidates.#2....: $HEX[2321676f7468] -> $HEX[042a0337c2a156616d6f732103]
+
+	Started: Fri Mar 29 13:48:24 2019
+	Stopped: Fri Mar 29 13:48:41 2019
+-------
+	
