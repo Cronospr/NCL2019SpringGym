@@ -26,4 +26,30 @@ craking1Easy
 	Started: Fri Mar 29 11:56:07 2019
 	Stopped: Fri Mar 29 11:56:13 2019
 -------
+craking2hard
+	./hashcat -m 0 -a 3 craking2Hard.txt FLAG-HQNT-?d?d?d?d
 
+684c21b5c1bf11ae827fc2ee8d14e415:FLAG-HQNT-0493  
+78d5e0b728ee142f5f6130e3cc735bc0:FLAG-HQNT-8193  
+2359e8e6e26e182b30697f95377107ea:FLAG-HQNT-9102  
+5b730827c2c6c22c0438a2b5dc453c9c:FLAG-HQNT-1796  
+f2d8af3d803694b951372921a821cc85:FLAG-HQNT-0283  
+                                                 
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: MD5
+Hash.Target......: craking2Hard.txt
+Time.Started.....: Fri Mar 29 12:58:12 2019 (0 secs)
+Time.Estimated...: Fri Mar 29 12:58:12 2019 (0 secs)
+Guess.Mask.......: FLAG-HQNT-?d?d?d?d [14]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#2.........:  3141.7 kH/s (0.24ms) @ Accel:1024 Loops:1 Thr:8 Vec:1
+Recovered........: 5/5 (100.00%) Digests, 1/1 (100.00%) Salts
+Progress.........: 10000/10000 (100.00%)
+Rejected.........: 0/10000 (0.00%)
+Restore.Point....: 0/10000 (0.00%)
+Restore.Sub.#2...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#2....: FLAG-HQNT-1234 -> FLAG-HQNT-7373
+
+Started: Fri Mar 29 12:58:04 2019
+Stopped: Fri Mar 29 12:58:13 2019
