@@ -54,7 +54,7 @@ craking2hard
 	Started: Fri Mar 29 12:58:04 2019
 	Stopped: Fri Mar 29 12:58:13 2019
 -------
-cracking3Medium.txt
+cracking3Medium
 	./hashcat -m 0 -a 0 craking3Medium.txt pokemon.txt
 	
 	c46950087eaa407782ad2619204476cd:dratini         
@@ -82,7 +82,7 @@ cracking3Medium.txt
 	Started: Fri Mar 29 13:36:33 2019
 	Stopped: Fri Mar 29 13:36:34 2019
 -------
-craking4Medium2.txt
+craking4Medium
 	./hashcat -m 1000 -a 0 craking4Medium2.txt rockyou.txt
 	
 	(only 5 of them were cracked, havn't try with ophcrack yet!)
@@ -114,4 +114,30 @@ craking4Medium2.txt
 	Started: Fri Mar 29 13:48:24 2019
 	Stopped: Fri Mar 29 13:48:41 2019
 -------
-	
+craking5Hard
+	./hashcat -m 0 -a 0 craking5Hard.txt lawNOrderX100.txt
+
+	8609c7cc715dea6500e08db180b16f51:conned94        
+	825b7ee403b1470b8b86ddb31e44ff0e:sugar11         
+	315d1cc9faafa74129769751fdd92ea3:rockabye45      
+	6475c851b56004eb96ab1404252c3a34:hooked37        
+	3dd9dd0e352df4433aadf2273e269287:resilience05    
+
+	Session..........: hashcat
+	Status...........: Cracked
+	Hash.Name........: MD5
+	Hash.Target......: craking5Hard.txt
+	Time.Started.....: Fri Mar 29 15:08:51 2019 (0 secs)
+	Time.Estimated...: Fri Mar 29 15:08:51 2019 (0 secs)
+	Guess.Base.......: File (lawNOrderX100.txt)
+	Guess.Queue......: 1/1 (100.00%)
+	Speed.#2.........:  3450.4 kH/s (8.40ms) @ Accel:128 Loops:1 Thr:8 Vec:1
+	Recovered........: 5/5 (100.00%) Digests, 1/1 (100.00%) Salts
+	Progress.........: 40960/45600 (89.82%)
+	Rejected.........: 0/40960 (0.00%)
+	Restore.Point....: 0/45600 (0.00%)
+	Restore.Sub.#2...: Salt:0 Amplifier:0-1 Iteration:0-1
+	Candidates.#2....: diss[363]99 -> rooftop40
+
+	Started: Fri Mar 29 15:08:51 2019
+	Stopped: Fri Mar 29 15:08:52 2019
