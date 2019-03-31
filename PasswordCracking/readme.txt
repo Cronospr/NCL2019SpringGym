@@ -94,7 +94,6 @@ craking4Medium
 	6ec7798aae5b1e551c03f354a979bbb4:racecar1234     
 	Approaching final keyspace - workload adjusted.  
 
-
 	Session..........: hashcat
 	Status...........: Exhausted
 	Hash.Name........: NTLM
@@ -113,6 +112,39 @@ craking4Medium
 
 	Started: Fri Mar 29 13:48:24 2019
 	Stopped: Fri Mar 29 13:48:41 2019
+	
+	-------
+	From ophcrack, all 10 passwords found
+	
+	0;;;5725A28AC80350B8AAD3B435B51404EE;F3CF3773CD9142BCD130D84106C0AF74;MONKEY5;;
+	monkey5;1;151;7;lowalphanum;XP special/Bruteforce
+
+	1;;;11CB3F697332AE4C4A3B108F3FA6CB6D;13B29964CC2480B4EF454C59562E675C;P@SSWOR;D;
+	P@ssword;1;174;8;mixedalpha+special;XP special/Bruteforce
+
+	2;;;C2A6A3BBA226DC79AAD3B435B51404EE;46839A2B6FC6CFD4F46D875E3F86B8AF;SHAD0W;;
+	shad0w;1;146;6;lowalphanum;XP special/Bruteforce
+
+	3;;;98F74F71875BB15CB757BF5C0D87772F;6EC7798AAE5B1E551C03F354A979BBB4;RACECAR;1234;
+	racecar1234;1;242;11;lowalphanum;XP special/Bruteforce
+
+	4;;;FE70541805EF3BD282A5E4BBC00225B3;53C53BA11D51525A952D2AF68F996942;FAIRYPR;INCESS;
+	fairyprincess;1;339;13;lowalpha;XP special/XP special
+
+	5;;;1E80D1B102B23C08AAD3B435B51404EE;B7CABD6AA9ED1312C4246C442DB84B81; LLS"DX;;
+	 llS"Dx;1;239;7;mixedalpha+special;XP special/Bruteforce
+
+	6;;;EF1A26352905DE95AAD3B435B51404EE;7764CC04BA33AED0BA86D73A4C70B272;I0$6B 9;;
+	i0$6B 9;1;142;7;mixedalphanum+special;XP special/Bruteforce
+
+	7;;;244E29990CF6AC82AAD3B435B51404EE;B64EED6E55DD8B3F95C6DC800B55F9C5;QIKK8YZ;;
+	qiKk8yz;1;242;7;mixedalphanum;XP special/Bruteforce
+
+	8;;;D22B4945A1EF7291AAD3B435B51404EE;F338168B17B1D2135608965A346EC4F8;%KA9Z`U;;
+	%ka9Z`U;1;145;7;mixedalphanum+special;XP special/Bruteforce
+
+	9;;;3613F7EC15407F56AAD3B435B51404EE;C82E164316183AA3AF3EA6BAA642A237;^B7E3D;;
+	;^B7e3D;;1;175;7;mixedalphanum+special;XP special/Bruteforce
 -------
 craking5Hard
 	./hashcat -m 0 -a 0 craking5Hard.txt lawNOrderX100.txt
